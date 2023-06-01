@@ -1,0 +1,13 @@
+
+.grid-item {
+    /*height: 120px;*/
+    float: left;
+    border-radius: 5px;
+}
+
+/*.grid-item--width2 { width:  40%; }*/
+/*.grid-item--width3 { width:  80%; }*/
+
+/*.grid-item--height2 { height: 200px; }*/
+/*.grid-item--height3 { height: 260px; }*/
+/*.grid-item--height4 { height: 360px; }*/

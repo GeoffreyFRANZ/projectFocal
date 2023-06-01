@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Image{% endblock %}
+
+{% block body %}
+    <h2 class="tm-text-primary mt-5 mb-5 text-center">Nouvel image</h2>
+    {{ include('image/_form.html.twig') }}
+
+    <a href="{{ path('app_image_index') }}">back to list</a>
+{% endblock %}

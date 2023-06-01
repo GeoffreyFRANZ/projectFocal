@@ -1,0 +1,13 @@
+@import "~bootstrap";
+@import "templatemo-style.css";
+
+
+.banner-img{
+    /*background-image: url('../img/banner.jpg');*/
+    background: url("../../public/img/banner.jpg") no-repeat center;
+    background-size: cover;
+    object-fit: fill;
+
+
+    /*background-repeat: no-repeat;*/
+}

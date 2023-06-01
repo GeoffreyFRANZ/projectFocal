@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Image{% endblock %}
+
+{% block body %}
+<div id="img-detail"></div>
+    {% endblock %}
+{%  block javascripts%}
+    {{ parent() }}
+    {{ encore_entry_script_tags('imgDetail') }}
+{% endblock %}
